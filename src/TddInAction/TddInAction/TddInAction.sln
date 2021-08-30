@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanReader", "RomanReader\RomanReader.csproj", "{BB60ACF1-6CE0-47BB-A1BB-AF6A6819E6AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RomanReader_", "RomanReader_", "{E1AEEBD5-FFED-48D2-BECB-D135AA7A7869}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanReaderTest", "RomanReader.Test\RomanReaderTest.csproj", "{E24FBF53-0E3C-4BA3-A410-628F3B03C5BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB60ACF1-6CE0-47BB-A1BB-AF6A6819E6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB60ACF1-6CE0-47BB-A1BB-AF6A6819E6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB60ACF1-6CE0-47BB-A1BB-AF6A6819E6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB60ACF1-6CE0-47BB-A1BB-AF6A6819E6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E24FBF53-0E3C-4BA3-A410-628F3B03C5BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E24FBF53-0E3C-4BA3-A410-628F3B03C5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E24FBF53-0E3C-4BA3-A410-628F3B03C5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E24FBF53-0E3C-4BA3-A410-628F3B03C5BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB60ACF1-6CE0-47BB-A1BB-AF6A6819E6AA} = {E1AEEBD5-FFED-48D2-BECB-D135AA7A7869}
+		{E24FBF53-0E3C-4BA3-A410-628F3B03C5BB} = {E1AEEBD5-FFED-48D2-BECB-D135AA7A7869}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C353A72-C765-412B-A28A-5905A64FBA0E}
+	EndGlobalSection
+EndGlobal
